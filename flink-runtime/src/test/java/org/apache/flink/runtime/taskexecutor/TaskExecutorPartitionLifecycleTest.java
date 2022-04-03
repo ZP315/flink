@@ -104,7 +104,7 @@ import static org.junit.Assert.assertTrue;
 /** Tests for the partition-lifecycle logic in the {@link TaskExecutor}. */
 public class TaskExecutorPartitionLifecycleTest extends TestLogger {
 
-    private static final Time timeout = Time.seconds(10L);
+    private static final Time timeout = Time.minutes(10L);
 
     private static TestingRpcService rpc;
 
